@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CKKJSBridge_Example' do
+  pod 'CKKJSBridge', :path => '../'
+
+  target 'CKKJSBridge_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
