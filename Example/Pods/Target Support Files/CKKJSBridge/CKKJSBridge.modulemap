@@ -1,0 +1,6 @@
+framework module CKKJSBridge {
+  umbrella header "CKKJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

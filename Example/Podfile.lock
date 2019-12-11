@@ -1,0 +1,27 @@
+PODS:
+  - CKKJSBridge (1.0.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CKKJSBridge (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CKKJSBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CKKJSBridge: ccd1f1d7340f3d578f21d2f0d62b189dc1f2ad52
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: c8c95dcfd45719994aa258f29435a2cde0b2d939
+
+COCOAPODS: 1.8.4

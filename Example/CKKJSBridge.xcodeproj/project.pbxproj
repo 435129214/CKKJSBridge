@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06BF87847602FE45D2AED8D8 /* CKKJSBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CKKJSBridge.podspec; path = ../CKKJSBridge.podspec; sourceTree = "<group>"; };
+		06BF87847602FE45D2AED8D8 /* CKKJSBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CKKJSBridge.podspec; path = ../CKKJSBridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B993C2F0061EF14F9A25C67 /* Pods_CKKJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKKJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450F6DB6F941D735B713EDE4 /* Pods_CKKJSBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKKJSBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B6CF5B82FC21C896EBE9184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B6CF5B82FC21C896EBE9184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CKKJSBridge_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKKJSBridge_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		AA4E0340F972CB97152DEFFD /* Pods-CKKJSBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKKJSBridge_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CKKJSBridge_Tests/Pods-CKKJSBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC99FF59616A90627631D9D1 /* Pods-CKKJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKKJSBridge_Example.release.xcconfig"; path = "Target Support Files/Pods-CKKJSBridge_Example/Pods-CKKJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1B7082B1A3D6E704F38FC02 /* Pods-CKKJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKKJSBridge_Example.debug.xcconfig"; path = "Target Support Files/Pods-CKKJSBridge_Example/Pods-CKKJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F69487F57A4C2E8C7793CA6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F69487F57A4C2E8C7793CA6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				AA4E0340F972CB97152DEFFD /* Pods-CKKJSBridge_Tests.debug.xcconfig */,
 				9A326EF4658212941409D45F /* Pods-CKKJSBridge_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
